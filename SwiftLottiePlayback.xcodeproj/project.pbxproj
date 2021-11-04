@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1235BDB5273424F200713A33 /* legoLottie.json in Resources */ = {isa = PBXBuildFile; fileRef = 1235BDB4273424F200713A33 /* legoLottie.json */; };
+		1252D66E27345513001EA5E0 /* titchenerIllusion.json in Resources */ = {isa = PBXBuildFile; fileRef = 1252D66D27345513001EA5E0 /* titchenerIllusion.json */; };
+		128076AA27342E3D00FB866B /* singLego.json in Resources */ = {isa = PBXBuildFile; fileRef = 128076A927342E3D00FB866B /* singLego.json */; };
+		DC146DE3EA96F8966C67E89A /* libPods-SwiftLottiePlayback.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3952B333BDD8E232F90CEA7D /* libPods-SwiftLottiePlayback.a */; };
+		F9275D412441BB78001CE8C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9275D402441BB78001CE8C3 /* AppDelegate.swift */; };
+		F9275D432441BB78001CE8C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9275D422441BB78001CE8C3 /* SceneDelegate.swift */; };
+		F9275D452441BB79001CE8C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9275D442441BB78001CE8C3 /* ViewController.swift */; };
+		F9275D482441BB79001CE8C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9275D462441BB79001CE8C3 /* Main.storyboard */; };
+		F9275D4A2441BB82001CE8C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9275D492441BB82001CE8C3 /* Assets.xcassets */; };
+		F9275D4D2441BB82001CE8C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9275D4B2441BB82001CE8C3 /* LaunchScreen.storyboard */; };
+		F93208C22441BE63003B615B /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F93208C12441BE63003B615B /* Lottie */; };
+		F93208C42441D5E6003B615B /* Watermelon.json in Resources */ = {isa = PBXBuildFile; fileRef = F93208C32441D5E6003B615B /* Watermelon.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1235BDB4273424F200713A33 /* legoLottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = legoLottie.json; sourceTree = "<group>"; };
+		1252D66D27345513001EA5E0 /* titchenerIllusion.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = titchenerIllusion.json; sourceTree = "<group>"; };
+		128076A927342E3D00FB866B /* singLego.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = singLego.json; sourceTree = "<group>"; };
+		3952B333BDD8E232F90CEA7D /* libPods-SwiftLottiePlayback.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftLottiePlayback.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8E4B00EDF071F6F84B7338 /* Pods-SwiftLottiePlayback.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLottiePlayback.release.xcconfig"; path = "Target Support Files/Pods-SwiftLottiePlayback/Pods-SwiftLottiePlayback.release.xcconfig"; sourceTree = "<group>"; };
+		4079D6D21CDC4D021CD623E6 /* Pods-SwiftLottiePlayback.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLottiePlayback.debug.xcconfig"; path = "Target Support Files/Pods-SwiftLottiePlayback/Pods-SwiftLottiePlayback.debug.xcconfig"; sourceTree = "<group>"; };
+		F9275D3D2441BB78001CE8C3 /* SwiftLottiePlayback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLottiePlayback.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9275D402441BB78001CE8C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9275D422441BB78001CE8C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F9275D442441BB78001CE8C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9275D472441BB79001CE8C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9275D492441BB82001CE8C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9275D4C2441BB82001CE8C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9275D4E2441BB82001CE8C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F93208C32441D5E6003B615B /* Watermelon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Watermelon.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9275D3A2441BB78001CE8C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93208C22441BE63003B615B /* Lottie in Frameworks */,
+				DC146DE3EA96F8966C67E89A /* libPods-SwiftLottiePlayback.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C2686C2BCDA63EB1C93203E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4079D6D21CDC4D021CD623E6 /* Pods-SwiftLottiePlayback.debug.xcconfig */,
+				3F8E4B00EDF071F6F84B7338 /* Pods-SwiftLottiePlayback.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8299434A34B02B0676D771A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3952B333BDD8E232F90CEA7D /* libPods-SwiftLottiePlayback.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9275D342441BB78001CE8C3 = {
+			isa = PBXGroup;
+			children = (
+				F9275D3F2441BB78001CE8C3 /* SwiftLottiePlayback */,
+				F9275D3E2441BB78001CE8C3 /* Products */,
+				8299434A34B02B0676D771A0 /* Frameworks */,
+				7C2686C2BCDA63EB1C93203E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F9275D3E2441BB78001CE8C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9275D3D2441BB78001CE8C3 /* SwiftLottiePlayback.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9275D3F2441BB78001CE8C3 /* SwiftLottiePlayback */ = {
+			isa = PBXGroup;
+			children = (
+				1235BDB4273424F200713A33 /* legoLottie.json */,
+				128076A927342E3D00FB866B /* singLego.json */,
+				1252D66D27345513001EA5E0 /* titchenerIllusion.json */,
+				F93208C32441D5E6003B615B /* Watermelon.json */,
+				F9275D402441BB78001CE8C3 /* AppDelegate.swift */,
+				F9275D422441BB78001CE8C3 /* SceneDelegate.swift */,
+				F9275D442441BB78001CE8C3 /* ViewController.swift */,
+				F9275D462441BB79001CE8C3 /* Main.storyboard */,
+				F9275D492441BB82001CE8C3 /* Assets.xcassets */,
+				F9275D4B2441BB82001CE8C3 /* LaunchScreen.storyboard */,
+				F9275D4E2441BB82001CE8C3 /* Info.plist */,
+			);
+			path = SwiftLottiePlayback;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9275D3C2441BB78001CE8C3 /* SwiftLottiePlayback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9275D512441BB82001CE8C3 /* Build configuration list for PBXNativeTarget "SwiftLottiePlayback" */;
+			buildPhases = (
+				8BF3B88336D05F26232046D3 /* [CP] Check Pods Manifest.lock */,
+				F9275D392441BB78001CE8C3 /* Sources */,
+				F9275D3A2441BB78001CE8C3 /* Frameworks */,
+				F9275D3B2441BB78001CE8C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftLottiePlayback;
+			packageProductDependencies = (
+				F93208C12441BE63003B615B /* Lottie */,
+			);
+			productName = "SwiftSenpai-Lottie-Advance-Playback";
+			productReference = F9275D3D2441BB78001CE8C3 /* SwiftLottiePlayback.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9275D352441BB78001CE8C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					F9275D3C2441BB78001CE8C3 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F9275D382441BB78001CE8C3 /* Build configuration list for PBXProject "SwiftLottiePlayback" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9275D342441BB78001CE8C3;
+			packageReferences = (
+				F93208C02441BE63003B615B /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = F9275D3E2441BB78001CE8C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9275D3C2441BB78001CE8C3 /* SwiftLottiePlayback */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9275D3B2441BB78001CE8C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9275D4D2441BB82001CE8C3 /* LaunchScreen.storyboard in Resources */,
+				F93208C42441D5E6003B615B /* Watermelon.json in Resources */,
+				1235BDB5273424F200713A33 /* legoLottie.json in Resources */,
+				1252D66E27345513001EA5E0 /* titchenerIllusion.json in Resources */,
+				F9275D4A2441BB82001CE8C3 /* Assets.xcassets in Resources */,
+				F9275D482441BB79001CE8C3 /* Main.storyboard in Resources */,
+				128076AA27342E3D00FB866B /* singLego.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BF3B88336D05F26232046D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftLottiePlayback-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9275D392441BB78001CE8C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9275D452441BB79001CE8C3 /* ViewController.swift in Sources */,
+				F9275D412441BB78001CE8C3 /* AppDelegate.swift in Sources */,
+				F9275D432441BB78001CE8C3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9275D462441BB79001CE8C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9275D472441BB79001CE8C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9275D4B2441BB82001CE8C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9275D4C2441BB82001CE8C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9275D4F2441BB82001CE8C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9275D502441BB82001CE8C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9275D522441BB82001CE8C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4079D6D21CDC4D021CD623E6 /* Pods-SwiftLottiePlayback.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftLottiePlayback/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Suzy.SwiftLottiePlayback;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F9275D532441BB82001CE8C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F8E4B00EDF071F6F84B7338 /* Pods-SwiftLottiePlayback.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftLottiePlayback/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Suzy.SwiftLottiePlayback;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9275D382441BB78001CE8C3 /* Build configuration list for PBXProject "SwiftLottiePlayback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9275D4F2441BB82001CE8C3 /* Debug */,
+				F9275D502441BB82001CE8C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9275D512441BB82001CE8C3 /* Build configuration list for PBXNativeTarget "SwiftLottiePlayback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9275D522441BB82001CE8C3 /* Debug */,
+				F9275D532441BB82001CE8C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F93208C02441BE63003B615B /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F93208C12441BE63003B615B /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F93208C02441BE63003B615B /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F9275D352441BB78001CE8C3 /* Project object */;
+}

@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     @IBAction func stopButtonTapped(_ sender: Any) {
         animationView.stop()
         
-        timeLabel.text = "0"
+        timeLabel.text = "1"
         progressLabel.text = "0"
         frameLabel.text = "0"
         

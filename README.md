@@ -1,2 +1,2 @@
-# SwiftLottie Playback
+# SwiftLottie Playbacks
 
